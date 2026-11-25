@@ -52,3 +52,10 @@
 - Update `RESULTS.md` with actual evaluation metrics.
 - Update `AI_USAGE.md` with actual tools and corrections.
 - Never commit API keys, credentials or personal data.
+## AI & Deep Tech Workflow
+
+- Use `uv run pytest` to validate model and feature-engineering changes.
+- Generate datasets using `tawseel.data.make_parcels`.
+- Keep model evaluation results in `RESULTS.md`.
+- Record AI prompts, tools, and corrections in `AI_USAGE.md`.
+- Inspect existing tests and feature-preparation code before proposing additional tests.
